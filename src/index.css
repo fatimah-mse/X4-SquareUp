@@ -1,0 +1,57 @@
+:root {
+    --IDentity_color: #9EFF00;
+    --MainBGColor: #1A1A1A;
+    --SecondBGColor: #262626;
+    --MainFontColor: #FFFFFF;
+    --SecondFontColor: #E6E6E6;
+    --SecondPColor: #98989A;
+    --CardTitleColor: #D8FF99;
+    --CardTitleGreenColor: #C5FF66;
+    --SecondaryButtonBG: #24242433;
+    --BorderColor: #333333;
+    --ShadowColor: #00000088;
+    --HeroBGColor: #1E1E1E;
+    --SectionBGColor: #ACFF2433;
+    --ColorBlack: #000000;
+    --ColorIcons: #242424;
+    --ColorFooterIcon: #2E2E2E;
+    --ColorDashTh: #26262633;
+    --Colorred: #e20707 ;
+    --ColorDivIcon: #9dff0007;
+    /*---------- Color From Moamen ------------*/
+    --PlaceholderColor: #656567;
+    --LabelLightColor: #FDFFFA;
+    --TableHeaderBG: #181818;
+    --ColorBlack: #000000;
+    --DangerColor: #ff1d1d;
+    --HeadGradientStart: rgba(172, 255, 36, 0);
+    --HeadGradientEnd: rgba(172, 255, 36, 1);
+    --myprimary-whitespacing: 162px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lm_whitespacing_x {
+    padding-left: var(--myprimary-whitespacing);
+    padding-right: var(--myprimary-whitespacing);
+    background-color: var(--MainBGColor);
+}
+
+
+@media screen and (max-width: 1440px) {
+
+    :root {
+        --myprimary-whitespacing: 80px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    :root {
+        --myprimary-whitespacing: 16px;
+    }
+}
